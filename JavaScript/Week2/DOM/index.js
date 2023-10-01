@@ -11,5 +11,8 @@
 //Task ==> Interact with DOM elements using the Developer Tools
 // E.g Wikipedia, Google, Twitter
 
-
+setTimeout(() => {
+    document.body.style.backgroundColor="yellow"
+    
+}, 4000);
 

@@ -70,3 +70,36 @@ displayUser("full", showFullName, showUserName)
 //Arrow functions
 let sum = (a, b) => a + b;
 let sayHelloWorld = () => alert("Hello World!");
+
+
+let count1=0;
+function addCount(){
+    while (count1<3){
+    count++
+    console.log(count1)
+}
+
+
+}
+
+// addCount()
+
+function displayN(fName, lName){
+    alert(fName + ' ' + lName);
+}
+
+displayN("Esther", "Amoo")
+
+
+function getName( fiName='Esther', laName='Amoo'){
+    let fullName= fiName + " " + laName
+     document.getElementById('name').innerHTML=fullName
+}
+    getName()
+
+function addNum(num1, num2){
+    let result = num1 + num2
+    return result
+}
+let result1= addNum(10, 5);
+alert(result1)

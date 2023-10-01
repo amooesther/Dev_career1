@@ -34,4 +34,11 @@ const object = { name: "John", age: 20 };
 
 for (const key in object) {
     console.log(key)
+    
+}
+
+let fName={name: 'yemi', age:23}
+for(const key in fName){
+    console.log(key)
+    console.log(fName.age)
 }

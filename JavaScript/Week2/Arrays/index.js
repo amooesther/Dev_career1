@@ -134,3 +134,43 @@ let animals = ["Lion", "Tiger", "Pig"]
 
 // console.log(matrix[2][1])
 
+let animal=['goat', 'dog', 'pig', 'donkey'];
+animal.push('mush', 'mash','fish')
+animal.unshift('leopard')
+// for(let ann of animal){
+//     console.log(`the animal is ${ann}` );
+// }
+// for(let index in animal){
+//     console.log(`the index is ${index} and the value is ${animal[index]}`);
+// }
+// function displayAnn(ani){
+//     console.log(`the animal is ${ani}`)
+//     }
+    animal.forEach((item)=>{
+        console.log(`the animal is ${item}`)
+    }
+
+    )
+
+    let username=['ade', 'ola', 'bayo','tolu','koka3','mofak','lolly']
+    username.forEach((item)=>{
+        console.log(`my name is ${item}`);
+    })
+
+    let userUpper=username.map((item)=>{
+        const upperCase=item.toUpperCase()
+        return upperCase
+    })
+
+    console.log(`user is ${userUpper}`)
+
+    let user=username.filter((items)=>{
+        if (items.length >=5){
+            return items
+        }
+    })
+    console.log(`user that passed is ${user}`)
+
+    let matrix= [[0,1,2], [3,4,5], [5,7,8]];
+    console.log(matrix[1])
+    console.log(matrix[2][2])
